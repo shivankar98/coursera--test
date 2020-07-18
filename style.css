@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    height:50px;
+    border:3px solid black;
+    background-color: grey;
+    font-size: 30px;
+    padding:5px;
+    padding-left:10px;
+}
+.button{
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 4px 0;
+}
+.menubutton{
+    float:right;
+}
+.menubutton:hover{
+    cursor: pointer;
+}
+.menubutton{
+    display:none;
+}
+h1{
+    text-align: center;
+    margin:10px;
+}
+.heading{
+    text-align: center;
+    font-weight:bold;
+    margin:5px;
+}
+.box{
+    width:30%;
+    background-color: grey;
+    margin:1.5%;
+    float:left;
+    padding:3px;
+}
+.chmb, .bfmb, .shmb{
+    text-align: Center;
+    border:1px solid black;
+}
+.chmb a, .bfmb a, .shmb a{
+    text-decoration:none;
+    color:black;
+}
+.mob{
+    display:none;
+}
+@media(min-width:768px) and (max-width:991px){
+    .chiken{
+        width:45%;
+    }
+    .beef{
+        width:45%;
+    }
+    .sushi{
+        width:93%;
+    }
+}
+@media(max-width:767px){
+    .chiken, .beef, .sushi{
+        width:95%;
+    }
+     
+    
+}
